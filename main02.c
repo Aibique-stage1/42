@@ -39,20 +39,21 @@ int main(void)
 	src = "holaaa\0";
 	printf("%s\n",  ft_strcpy(dest, src));
 	
+	*/
 	//ex01
     unsigned int    n;
     char            dest[6] = "12345\0";
     char            src[4] = "321\0";
-    n = 4;
+    n = 1;
     printf(" src: '%s'\n", src);
     printf("dest: '%s'\n", dest);
 	printf("-----\n");
     ft_strncpy(dest, src, n);
     printf(" src: '%s'\n", src);
     printf("dest: '%s'\n", dest);
-	//printf("-----");
-	//printf("%s\n", strncpy(dest, src, n));
-	
+	printf("-----");
+	printf("%s\n", strncpy(dest, src, n));
+	/*
 	//ex02
 	char s[4] = "w6a\0";
     printf("%d\n", ft_str_is_alpha(s));

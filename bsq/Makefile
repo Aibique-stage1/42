@@ -1,0 +1,3 @@
+NAME: bsq
+SRC: .*c
+
